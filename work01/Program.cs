@@ -3,7 +3,6 @@
 // 12821 -> да
 // 23432 -> да
 
-
 int number = 0;
 int result = 0;
 int numForCalculation = 0;
