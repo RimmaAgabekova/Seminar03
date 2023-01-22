@@ -2,10 +2,12 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-
 System.Console.WriteLine("Введите число: ");
+
 int num = Convert.ToInt32(Console.ReadLine());
+
 System.Console.WriteLine("_______");
+
 for(int i = 1; i <= num; i++)
 {    
     System.Console.WriteLine(Math.Pow(i, 3));
