@@ -12,7 +12,7 @@ Console.Write("Введите число: ");
 numForCalculation = Convert.ToInt32(Console.ReadLine());
 number = numForCalculation;
 
-while (numForCalculation > 0) 
+while(numForCalculation > 0) 
 {
     result = (result * 10) + (numForCalculation % 10);
     numForCalculation = numForCalculation / 10;
@@ -20,9 +20,9 @@ while (numForCalculation > 0)
 
 if(result == number)
 {
-Console.Write(result + "-> Да");
+    Console.Write(result + "-> Да");
 }
 else
 {
-Console.Write(result + " -> Нет");
+    Console.Write(result + " -> Нет");
 }
